@@ -11,8 +11,8 @@ in order for it to happened we created:
 
 ## Task 
 
-Generic class type, returns a result and throw exeptions.
-Evrey task get a priority. The priority determined by TaskType. 
+The class holds a Callable function and an enum of type TaskType. It is able to compare priority based on the taskType.
+The class has two constructors, one that creates a task with a given function and taskType "OTHER" that creates a task with a given function and taskType.
 
 ## CustomExecutor
 
